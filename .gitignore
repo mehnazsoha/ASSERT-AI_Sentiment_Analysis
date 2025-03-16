@@ -1,0 +1,32 @@
+# Ignore Python virtual environment
+.venv/
+.env
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment-specific files
+.DS_Store
+.vscode/
+
+# Ignore Node.js dependencies
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Ignore logs and temp files
+logs/
+*.log
+debug.log
+*.out
+
+# Ignore IDE settings
+.idea/
+*.iml
+
+# Ignore OS-specific files
+Thumbs.db
